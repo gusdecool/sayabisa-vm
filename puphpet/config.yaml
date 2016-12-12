@@ -184,7 +184,7 @@ apache:
     vhosts:
         av_s3oh2evdaxeu:
             servername: sayabisa.dev
-            docroot: /var/www/sayabisa
+            docroot: /var/www/sayabisa-app/web
             port: '80'
             setenv:
                 - 'APP_ENV dev'
@@ -200,7 +200,7 @@ apache:
             ssl_cipher: ''
             directories:
                 avd_wkdb9vnr0i4t:
-                    path: /var/www/sayabisa
+                    path: /var/www/sayabisa-app/web
                     options:
                         - Indexes
                         - FollowSymlinks
